@@ -533,8 +533,7 @@ const closeCapacityModal = () => {
           thread_id: threadId,
           message: finalMsg,
           agent_id: agentIdToSend,
-          top_k: topK,
-          trace_id: traceId,
+trace_id: traceId,
           client_message_id: clientMessageId,
           signal: ctl.signal,
         });
@@ -644,8 +643,7 @@ if (sseRes && sseRes.status === 429) {
           thread_id: threadId,
           message: finalMsg,
           agent_id: agentIdToSend,
-          top_k: topK,
-          trace_id: traceId,
+trace_id: traceId,
           client_message_id: clientMessageId,
           signal: ctl.signal,
         });
